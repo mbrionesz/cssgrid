@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -8,36 +8,89 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>Desafio CSS Grid</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="grid-container">
-        <header>
-                <h3>Mi Ecommerce</h3>
-        </header>
-        <menu>
-            <div class="cat1">
-            <h2>Categorías</h2>
+      <header>
+        <h3>Mi Ecommerce</h3>
+      </header>
+      <menu>
+        <div class="cat1">
+          <h2>Categorías</h2>
+        </div>
+        <div class="cat2">
+          <ul>
+            <li>
+              <a href="">Perfumes (13)</a>
+            </li>
+            <li>
+              <a href="">Ropa (21)</a>
+            </li>
+            <li>
+              <a href="">Accesorios (41)</a>
+            </li>
+            <li>
+              <a href="">Zapatos (10)</a>
+            </li>
+          </ul>
+        </div>
+      </menu>
+      <main>
+        <div class="grid-card">
+          <div class="card">
+            <div>
+              <img src="./assets/img/cojin.jpg" alt="Imagen Cojin" height="350px" width="300px">
             </div>
-            <div class="cat2">
-                <ul>
-                    <li><a href="">Perfumes (13)</a></li>
-                    <li><a href="">Ropa (21)</a></li>
-                    <li><a href="">Accesorios (41)</a></li>
-                    <li><a href="">Zapatos (10)</a></li>
-                </ul>
+            <div class="product">
+              <h3>Cojin Trojin</h3>
+              <p>$20.990</p>
             </div>
-        </menu>
-        <main>
-            <div class="grid-card">
-                <div class="card">1</div>
-                <div class="card">2</div>
-                <div class="card">3</div>
-                <div class="card">4</div>
+            <div class="button-area">
+              <button>Comprar</button>
             </div>
-        </main>
-        <footer>
-            <h4> @miecommerce </h4>
-        </footer>
+          </div>
+          <div class="card">
+            <div>
+                <img src="./assets/img/perfume.jpg" alt="Imagen Perfume Eternity" height="350px" width="300px">
+              </div>
+              <div class="product">
+                <h3>Perfume Eternity</h3>
+                <p>$70.990</p>
+              </div>
+              <div class="button-area">
+                <button>Comprar</button>
+              </div>
+          </div>
+          <div class="card">
+            <div>
+                <img src="./assets/img/polera1.jpg" alt="Imagen Polera" height="350px" width="300px">
+              </div>
+              <div class="product">
+                <h3>Polera</h3>
+                <p>$10.990</p>
+              </div>
+              <div class="button-area">
+                <button>Comprar</button>
+              </div>
+          </div>
+          <div class="card">
+            <div>
+                <img src="./assets/img/zapatilla1.jpg" alt="Imagen Zapatilla" height="350px" width="300px">
+              </div>
+              <div class="product">
+                <h3>Zapatilla Deportiva</h3>
+                <p>$40.990</p>
+              </div>
+              <div class="button-area">
+                <button>Comprar</button>
+              </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <h4> @miecommerce </h4>
+      </footer>
     </div>
-</body>
+  </body>
+  <!--Desafio Grid Matías Briones G-54-->
 </html>
